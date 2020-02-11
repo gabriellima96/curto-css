@@ -308,3 +308,64 @@ input[type="button"][disabled].button.outline:focus {
 .button.outline:visited:focus {
   color: #fff;
 }
+
+/* Forms */
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type='date'],
+input[type='color'],
+input[type='month'],
+input[type='week'],
+input[type='datetime'],
+input[type='datetime-local'],
+textarea,
+select {
+  appearance: none; 
+  background-color: transparent;
+  padding: 0.6rem 1.0rem;
+  height: 3.8rem;
+  box-shadow: none;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #191919;
+  box-sizing: inherit;
+  font: inherit;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type='date']:focus,
+input[type='color']:focus,
+input[type='month']:focus,
+input[type='week']:focus,
+input[type='datetime']:focus,
+input[type='datetime-local']:focus,
+textarea:focus,
+select:focus {
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #191919;
+  outline: 0;
+}
+
+textarea {
+  min-height: 6.5rem;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+}
