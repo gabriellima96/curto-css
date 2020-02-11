@@ -328,7 +328,7 @@ textarea,
 select {
   appearance: none; 
   background-color: transparent;
-  padding: 0.6rem 1.0rem;
+  padding: 0.6rem 0;
   height: 3.8rem;
   box-shadow: none;
   border-top: 1px solid #fff;
