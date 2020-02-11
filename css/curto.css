@@ -461,3 +461,29 @@ th:last-child {
     padding-right: 1.2rem;
   }
 }
+
+/* Spacing */
+
+label {
+  margin-bottom: 0.4rem;
+}
+
+.button,
+button,
+li {
+  margin-bottom: 1rem;
+}
+
+input,
+select,
+textarea {
+  margin-bottom: 1.5rem;
+}
+
+form,
+ol,
+ul,
+p,
+table {
+  margin-bottom: 2.5rem;
+}
