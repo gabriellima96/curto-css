@@ -17,6 +17,8 @@
 */
 
 /* Base Styles */
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+
 html {
   font-size: 62.5%;
 }
@@ -25,7 +27,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.6;
   font-weight: 400;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Didact Gothic', 'Roboto', Helvetica, Arial, sans-serif;
   color: #191919;
 }
 
