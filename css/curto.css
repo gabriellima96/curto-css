@@ -13,6 +13,7 @@
 - Lists
 - Tables
 - Spacing
+- Image
 - Utilities
 */
 
@@ -486,6 +487,11 @@ ul,
 p,
 table {
   margin-bottom: 2.5rem;
+}
+
+/* Image */
+img {
+  max-width: 100%;
 }
 
 /* Utilities */
