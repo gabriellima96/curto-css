@@ -487,3 +487,25 @@ p,
 table {
   margin-bottom: 2.5rem;
 }
+
+/* Utilities */
+
+.cleanfix::after,
+.cleanfix::before {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.width-100 {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
