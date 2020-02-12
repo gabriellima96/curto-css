@@ -129,6 +129,59 @@ body {
     flex: 0 0 100%;
     max-width: 100%;
   }
+
+  /* Offsets */
+  .offset-by-one.column,
+  .offset-by-one.columns  { 
+    margin-left: 8.334%;
+  }
+
+  .offset-by-two.column,
+  .offset-by-two.columns { 
+    margin-left: 16.667%; 
+  }
+
+  .offset-by-three.column,
+  .offset-by-three.columns { 
+    margin-left: 25%;            
+  }
+
+  .offset-by-four.column,
+  .offset-by-four.columns { 
+    margin-left: 33.334%; 
+  }
+
+  .offset-by-five.column,
+  .offset-by-five.columns { 
+    margin-left: 41.667%; 
+  }
+
+  .offset-by-six.column,
+  .offset-by-six.columns { 
+    margin-left: 50%;            
+  }
+
+  .offset-by-seven.column,
+  .offset-by-seven.columns { 
+    margin-left: 58.334%; 
+  }
+
+  .offset-by-eight.column,
+  .offset-by-eight.columns {
+    margin-left: 66.667%; 
+  }
+  .offset-by-nine.column,
+  .offset-by-nine.columns { 
+    margin-left: 75%;          
+  }
+  .offset-by-ten.column,
+  .offset-by-ten.columns { 
+    margin-left: 83.334%; 
+  }
+  .offset-by-eleven.column,
+  .offset-by-eleven.columns { 
+    margin-left: 91.667%; 
+  }
 }
 
 /* Typography */
