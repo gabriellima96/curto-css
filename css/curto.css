@@ -18,8 +18,6 @@
 */
 
 /* Base Styles */
-@import url("https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap");
-
 :root {
   --initial: #FFF;;
   --primary: #17BEBB;
