@@ -2,11 +2,22 @@
   "name": "curto-css",
   "version": "1.0.0",
   "description": "A CSS framework",
-  "main": "css/curto.css",
+  "main": "dist/curto.min.css",
   "repository": "https://github.com/gabriellima96/curto-css",
   "author": "Gabriel Lima <gabriellima.silva96@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "minify": "gulp minify-css"
+  },
   "dependencies": {
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-rename": "^2.0.0"
   }
 }
