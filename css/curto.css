@@ -25,6 +25,8 @@
   --tertiary: #d9d9d9;
   --quaternary: #139997;
   --quinary: #f06543;
+  --error: #dc3545;
+  --success: #198754;
   --font-family-sans-serif: Helvetica, Arial, sans-serif;
 }
 
@@ -1132,6 +1134,14 @@ img {
   background: var(--quinary);
 }
 
+.background-success {
+  background: var(--success);
+}
+
+.background-error {
+  background: var(--error);
+}
+
 /* Color */
 .color-initial {
   color: var(--initial);
@@ -1155,6 +1165,14 @@ img {
 
 .color-quinary {
   color: var(--quinary);
+}
+
+.color-success {
+  color: var(--success);
+}
+
+.color-error {
+  color: var(--error);
 }
 
 /* Components */
