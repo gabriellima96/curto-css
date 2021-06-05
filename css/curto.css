@@ -25,6 +25,7 @@
   --tertiary: #d9d9d9;
   --quaternary: #139997;
   --quinary: #f06543;
+  --font-family-sans-serif: Helvetica, Arial, sans-serif;
 }
 
 html {
@@ -35,14 +36,15 @@ body {
   font-size: 1.6rem;
   line-height: 1.6;
   font-weight: 400;
-  font-family: 'Didact Gothic', 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: var(--font-family-sans-serif);
   color: var(--secondary);
 }
 
 /* Grid */
 .container {
+  position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 1140px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   box-sizing: border-box;
@@ -63,6 +65,7 @@ body {
   padding-right: 1.5rem;
 }
 
+/* Larger than mobile (XS) */
 @media (min-width: 400px) {
   .container {
     width: 85%;
@@ -70,6 +73,7 @@ body {
   }
 }
 
+/* Larger than phable (SM) */
 @media (min-width: 550px) {
   .container {
     width: 80%;
@@ -574,4 +578,26 @@ img {
 
 .float-left {
   float: left;
+}
+
+/* Media Query */
+
+/* Larger than mobile  (SX)*/
+@media (min-width: 400px) {
+}
+
+/* Larger than phablet (SM)*/
+@media (min-width: 550px) {
+}
+
+/* Larger than tablet (MD)*/
+@media (min-width: 750px) {
+}
+
+/* Larger than desktop (LG)*/
+@media (min-width: 1000px) {
+}
+
+/* Larger than Desktop HD (XL)*/
+@media (min-width: 1200px) {
 }
